@@ -95,10 +95,4 @@ COLORS <- list(
 ```
 
 ---
-Developed for educational and research purposes (okay, just kidding, mostly for fun). The Cultometer aims to promote understanding of group dynamics and raise awareness about potential warning signs in group structures.
-
-
-
-Uploading Screen Recording 2024-11-19 at 12.08.47 AM.mp4…
-
-
+Developed for educational and research purposes (okay, just kidding, mostly for fun). 
