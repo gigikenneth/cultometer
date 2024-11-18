@@ -1,0 +1,100 @@
+/* Base styles */
+:root {
+  --md-sys-color-primary: #006495;
+  --md-sys-color-surface: #fcfcff;
+  --md-sys-color-background: #fcfcff;
+}
+
+body {
+  background-color: var(--md-sys-color-background);
+  font-family: "Google Sans", "Roboto", sans-serif;
+}
+
+/* Fix slider styling */
+.js-irs-0 .irs-bar,
+.js-irs-1 .irs-bar {
+  border: 0;
+  background: var(--md-sys-color-primary);
+}
+
+.irs-line {
+  border: 0;
+  background: #e4e4e4;
+}
+
+.irs-slider {
+  border: 2px solid var(--md-sys-color-primary);
+  background: white;
+  box-shadow: none;
+}
+
+/* Slider container fixes */
+.slider-container {
+  margin-bottom: 25px;
+  padding: 0 10px;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+/* Chart layout fixes */
+.chart-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.chart-card {
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+/* General layout improvements */
+.well {
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid #e4e4e4;
+  padding: 20px;
+}
+
+.tab-content {
+  padding: 20px;
+}
+
+/* Table styling */
+.dataTables_wrapper {
+  padding: 15px;
+  background: white;
+  border-radius: 12px;
+}
+
+/* Fix input spacing */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Additional spacing fixes */
+.section-card {
+  margin-bottom: 30px;
+}
+
+.checkbox-group label {
+  margin-bottom: 10px;
+}
+
+/* Plot container fixes */
+.plotly {
+  width: 100% !important;
+}
+
+.js-plotly-plot {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+name: cultometer
+title: cultometer
+username: a26esk-gigi-kenneth
+account: a26esk-gigi-kenneth
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13378690
+bundleId: 9382714
+url: https://gigikenneth.shinyapps.io/cultometer/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
